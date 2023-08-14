@@ -1,0 +1,7 @@
+.front-page__image {
+  width: 460px;
+  height: 460px;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: -40px 30px 30px 0px rgba(149, 83, 253, 0.5);
+}
