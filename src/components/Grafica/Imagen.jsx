@@ -39,7 +39,7 @@ export default class Grafica extends PureComponent {
         return (
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart
-                    width={700}
+                    width={500}
                     height={300}
                     data={data}
                     margin={{

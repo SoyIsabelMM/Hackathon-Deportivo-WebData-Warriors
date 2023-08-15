@@ -6,6 +6,7 @@ import './components/Grafica/Grafica.css';
 
 
 function App() {
+  console.log(Imagen);
   return (
     <div className="page">
       <Header />
