@@ -5,7 +5,7 @@ function Info() {
     <section className="info">
       <div className="divider"></div>
       <h2 className="info__title">
-        <span className="info__title_color">En WebData Warrios,</span>{" "}
+        <span className="info__title_color">En WebData Warriors,</span>
         analizamos los datos históricos de partidos proporcionados por la FIFA.
         <br />
         ¡Únete a nosotros para descubrir el poder de los datos en el deporte!
