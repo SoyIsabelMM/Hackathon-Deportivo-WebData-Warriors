@@ -1,9 +1,9 @@
 import React from "react";
 import FrontPage from "./FrontPage";
 import AboutUs from "./AboutUs";
-import Imagen from "./Grafica/Imagen";
-import Grafica from "./Grafica/Grafica";
-import "./Grafica/Grafica.css";
+import Image from "./Chart/Image";
+import Chart from "./Chart/Chart";
+import "./Chart/Chart.css";
 import Info from "./Info";
 
 function Main() {
@@ -11,10 +11,10 @@ function Main() {
     <main className="main">
       <FrontPage />
       <Info />
-      <Grafica descripcion={0} imagen={Imagen} />
-      <Grafica descripcion={1} imagen={Imagen} className="reverse" />
-      <Grafica descripcion={2} imagen={Imagen} />
-      <Grafica descripcion={3} imagen={Imagen} className="reverse" />
+      <Chart descripcion={0} imagen={Image} />
+      <Chart descripcion={1} imagen={Image} className="reverse" />
+      <Chart descripcion={2} imagen={Image} />
+      <Chart descripcion={3} imagen={Image} className="reverse" />
       <AboutUs />
     </main>
   );
