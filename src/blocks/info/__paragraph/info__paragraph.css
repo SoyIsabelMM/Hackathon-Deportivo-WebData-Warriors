@@ -1,0 +1,9 @@
+.info__paragraph {
+  font-size: 25px;
+  color: white;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: justify;
+  width: 1100px;
+  margin: 20px auto 100px;
+}

@@ -1,0 +1,9 @@
+.info__title {
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 100px auto 10px;
+  text-align: center;
+  width: 1100px;
+}
