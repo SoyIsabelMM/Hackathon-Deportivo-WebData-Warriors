@@ -12,12 +12,14 @@
 @import url(./blocks/btn/btn.css);
 @import url(./blocks/name-logo/name-logo.css);
 @import url(./blocks/about-us/about-us.css);
-@import url(./blocks/divider/divider.css);
-@import url(./blocks/about-us/__title/about-us__title.css);
 @import url(./blocks/about-us/__team/about-us__team.css);
 @import url(./blocks/about-us/__image/about-us__image.css);
 @import url(./blocks/about-us/__container/about-us__container.css);
 @import url(./blocks/about-us/__text/about-us__text.css);
+@import url(./blocks/divider/divider.css);
+@import url(./blocks/title/title.css);
+@import url(./blocks/hackathon/hackathon.css);
+@import url(./blocks/hackathon/__paragraph/hackathon__paragraph.css);
 @import url(./blocks/info/info.css);
 @import url(./blocks/info/__title/info__title.css);
 @import url(./blocks/info/__title/_color/info__title_color.css);

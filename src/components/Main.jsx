@@ -5,6 +5,7 @@ import Image from "./Chart/Image";
 import Chart from "./Chart/Chart";
 import "./Chart/Chart.css";
 import Info from "./Info";
+import Hackathon from "./Hackathon";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <Chart descripcion={1} imagen={Image} className="reverse" />
       <Chart descripcion={2} imagen={Image} />
       <Chart descripcion={3} imagen={Image} className="reverse" />
+      <Hackathon />
       <AboutUs />
     </main>
   );
