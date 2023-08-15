@@ -1,0 +1,8 @@
+.footer__content-list {
+  width: 880px;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

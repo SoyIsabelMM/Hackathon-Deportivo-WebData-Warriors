@@ -1,6 +1,7 @@
 .about-us__image {
   width: 250px;
   height: 250px;
+  margin: 0 0 30px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: -40px 30px 30px 0px rgba(149, 83, 253, 0.5);

@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  color: white;
+  line-height: 1.7;
+  font-size: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #9553fd;
+}
