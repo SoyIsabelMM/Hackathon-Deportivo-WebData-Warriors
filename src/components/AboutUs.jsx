@@ -9,6 +9,8 @@ function AboutUs() {
   return (
     <>
       <section className="about-us">
+        <h2 className="about-us__title">Nosotros</h2>
+        <div className="divider"></div>
         <div className="about-us__team">
           <TeamImage
             src={ireneReynoso}
@@ -35,6 +37,7 @@ function AboutUs() {
             profession="Web Developer"
           />
         </div>
+        <div className="divider"></div>
       </section>
     </>
   );

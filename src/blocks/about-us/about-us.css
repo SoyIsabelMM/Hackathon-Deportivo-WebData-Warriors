@@ -1,5 +1,6 @@
 .about-us {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   height: auto;
   width: 100%;
