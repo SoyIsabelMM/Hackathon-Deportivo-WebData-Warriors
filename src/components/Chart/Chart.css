@@ -1,0 +1,17 @@
+.Chart {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.Chart__container-img1 {
+  height: 250px;
+  width: 450px;
+}

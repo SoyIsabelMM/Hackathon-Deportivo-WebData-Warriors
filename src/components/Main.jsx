@@ -1,21 +1,25 @@
 import React from "react";
 import FrontPage from "./FrontPage";
 import AboutUs from "./AboutUs";
-import Imagen from "./Grafica/Imagen";
 import Imagen2 from "./Grafica/Imagen2";
-import Grafica from "./Grafica/Grafica";
-import "./Grafica/Grafica.css";
 import RankingFifa from "./RankingFifa/RankingFifa";
+import Image from "./Chart/Image";
+import Chart from "./Chart/Chart";
+import "./Chart/Chart.css";
+import Info from "./Info";
+import Hackathon from "./Hackathon";
 
 function Main() {
   return (
     <main className="main">
       <FrontPage />
+       <Info />
       <RankingFifa />
-      <Grafica descripcion={0} imagen={Imagen} />
-      <Grafica descripcion={1} imagen={Imagen2} className="reverse" />
-      <Grafica descripcion={2} imagen={Imagen} />
-      <Grafica descripcion={3} imagen={Imagen} className="reverse" />
+      <Chart descripcion={0} imagen={Image} />
+      <Chart descripcion={1} imagen={Imagen2} className="reverse" />
+      <Chart descripcion={2} imagen={Image} />
+      <Chart descripcion={3} imagen={Image} className="reverse" />
+      <Hackathon />
       <AboutUs />
     </main>
   );
