@@ -11,12 +11,11 @@ import Hackathon from "./Hackathon";
 import Arqueros from "./Arqueros/Arqueros";
 import Calificacion from "./Calificacion/Calificacion";
 
-
 function Main() {
   return (
     <main className="main">
       <FrontPage />
-       <Info />
+      <Info />
       <RankingFifa />
       <Arqueros />
       <Calificacion />
