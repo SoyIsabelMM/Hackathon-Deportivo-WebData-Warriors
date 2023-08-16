@@ -9,7 +9,7 @@ import "./Chart/Chart.css";
 import Info from "./Info";
 import Hackathon from "./Hackathon";
 import Archers from "./Archers";
-import Calificacion from "./Calificacion/Calificacion";
+import Calificacion from "./Qualification";
 
 function Main() {
   return (
@@ -18,9 +18,9 @@ function Main() {
       <Info />
       {/* <RankingFifa /> */}
       <Archers />
-      {/* <Calificacion /> */}
-      /* <Chart descripcion={0} imagen={Image} />
-      <Chart descripcion={1} imagen={Imagen2} className="reverse" />
+      <Calificacion />
+      {/* <Chart descripcion={0} imagen={Image} />
+      <Chart descripcion={1} imagen={Imagen2} className="reverse" /> */}
       <Hackathon />
       <AboutUs />
     </main>

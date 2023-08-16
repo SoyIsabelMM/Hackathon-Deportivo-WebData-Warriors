@@ -13,17 +13,17 @@ import {
 const data = [
   {
     name: "Win",
-    "Clasificación para la Copa Mundial de la FIFA": 2633,
+    "Clasificación para la UEFA EURO": 809,
     fill: "green",
   },
   {
     name: "Lose",
-    "Clasificación para la Copa Mundial de la FIFA": 2396,
+    "Clasificación para la UEFA EURO": 587,
     fill: "red",
   },
   {
     name: "Draw",
-    "Clasificación para la Copa Mundial de la FIFA": 1108,
+    "Clasificación para la UEFA EURO": 309,
     fill: "yellow",
   },
 ];
@@ -58,8 +58,8 @@ export default class Example extends PureComponent {
           <Legend />
           <CartesianGrid strokeDasharray="3 3" />
           <Bar
-            dataKey="Clasificación para la Copa Mundial de la FIFA"
-            fill="white"
+            dataKey="Clasificación para la UEFA EURO"
+            fill="rgb(149, 83, 253)"
             background={{ fill: "white" }}
           />
         </BarChart>
