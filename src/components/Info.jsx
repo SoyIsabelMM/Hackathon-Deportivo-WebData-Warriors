@@ -8,7 +8,7 @@ function Info() {
         <span className="info__title_color">En WebData Warriors,</span>
         analizamos los datos históricos de partidos proporcionados por la FIFA.
         <br />
-        ¡Únete a nosotros para descubrir el poder de los datos en el deporte!
+        ¡Descubre el poder de los datos en el deporte ⚽️!
       </h2>
       <p className="info__paragraph">
         En la actualidad, el fútbol es más que un deporte; refleja cultura,
