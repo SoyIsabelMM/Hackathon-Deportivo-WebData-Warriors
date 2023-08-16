@@ -8,6 +8,9 @@ import Chart from "./Chart/Chart";
 import "./Chart/Chart.css";
 import Info from "./Info";
 import Hackathon from "./Hackathon";
+import Arqueros from "./Arqueros/Arqueros";
+import Calificacion from "./Calificacion/Calificacion";
+
 
 function Main() {
   return (
@@ -15,6 +18,8 @@ function Main() {
       <FrontPage />
        <Info />
       <RankingFifa />
+      <Arqueros />
+      <Calificacion />
       <Chart descripcion={0} imagen={Image} />
       <Chart descripcion={1} imagen={Imagen2} className="reverse" />
       <Chart descripcion={2} imagen={Image} />
