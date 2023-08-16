@@ -6,6 +6,7 @@ import Imagen2 from "./Grafica/Imagen2";
 import Grafica from "./Grafica/Grafica";
 import "./Grafica/Grafica.css";
 import RankingFifa from "./RankingFifa/RankingFifa";
+import Arqueros from "./Arqueros/Arqueros";
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
       <RankingFifa />
       <Grafica descripcion={0} imagen={Imagen} />
       <Grafica descripcion={1} imagen={Imagen2} className="reverse" />
+      <Arqueros />
       <Grafica descripcion={2} imagen={Imagen} />
       <Grafica descripcion={3} imagen={Imagen} className="reverse" />
       <AboutUs />
