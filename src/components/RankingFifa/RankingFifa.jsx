@@ -1,6 +1,5 @@
 import React from 'react';
 import RankingFifaItem from './RankingFifaItem';
-import './RankingFifa.css';
 
 const data = [
     {
@@ -32,7 +31,7 @@ const data = [
 
 const RankingFifa = () => {
     return (
-        <div className="bar-chart">
+        <div className="ranking-fifa">
             {data.map((item, index) => (
                 <RankingFifaItem
                     key={index}
