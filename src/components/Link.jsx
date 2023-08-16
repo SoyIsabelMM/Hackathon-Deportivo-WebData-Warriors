@@ -1,7 +1,6 @@
 import React from "react";
 
 function Link(props) {
-  console.log(props);
   return (
     <>
       <a

@@ -3,7 +3,7 @@ import React from "react";
 function Hackathon() {
   return (
     <>
-      <section className="hackathon">
+      <section className="hackathon" id="hackathon">
         <div className="divider"></div>
         <h2 className="title">Hackathon Deportivo TripleTen</h2>
         <p className="hackathon__paragraph">
