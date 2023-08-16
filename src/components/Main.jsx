@@ -7,6 +7,7 @@ import Grafica from "./Grafica/Grafica";
 import "./Grafica/Grafica.css";
 import RankingFifa from "./RankingFifa/RankingFifa";
 import Arqueros from "./Arqueros/Arqueros";
+import Calificacion from "./Calificacion/Calificacion";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Grafica descripcion={0} imagen={Imagen} />
       <Grafica descripcion={1} imagen={Imagen2} className="reverse" />
       <Arqueros />
+      <Calificacion />
       <Grafica descripcion={2} imagen={Imagen} />
       <Grafica descripcion={3} imagen={Imagen} className="reverse" />
       <AboutUs />

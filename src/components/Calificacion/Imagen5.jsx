@@ -4,17 +4,17 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 const data = [
     {
         name: 'Win',
-        value: 9162,
+        value: 809,
         color: 'green',
     },
     {
         name: 'Lose',
-        value: 4675,
+        value: 587,
         color: 'red'
     },
     {
         name: 'Draw',
-        value: 4110,
+        value: 309,
         color: 'yellow'
     }
 ];
@@ -42,7 +42,7 @@ export default class Example extends PureComponent {
                     <Tooltip />
                     <Legend />
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Bar dataKey="value" fill={data.map(() => (data.color))} background={{ fill: '#eee' }} />
+                    <Bar dataKey="value" fill="color" background={{ fill: '#eee' }} />
                 </BarChart>
             </ResponsiveContainer>
         );
