@@ -21,8 +21,6 @@ function Main() {
       {/* <Calificacion /> */}
       {/* <Chart descripcion={0} imagen={Image} />
       <Chart descripcion={1} imagen={Imagen2} className="reverse" />
-      <Chart descripcion={2} imagen={Image} />
-      <Chart descripcion={3} imagen={Image} className="reverse" /> */}
       <Hackathon />
       <AboutUs />
     </main>
