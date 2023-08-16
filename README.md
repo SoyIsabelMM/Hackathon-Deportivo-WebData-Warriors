@@ -5,7 +5,7 @@ Este hackathon ha sido una experiencia enriquecedora que nos permitió sumergirn
 
 Extendemos nuestro agradecimiento al equipo de TripleTen por organizar este Hackaton y desafiarnos a poner en práctica nuestras habilidades. Como estudiantes, estamos emocionados de aplicar los conocimientos adquiridos durante nuestro bootcamp y estamos contentos por la oportunidad de crecimiento que nos han brindado.
 
-## Equipo
+## Equipo: WebData Warriors
 | Diciplina               | Nombre                                                                                 |País |
 |:------------------------ |:------------------------------------------------------------------------------------------- |:---|
 |Web Developer| [Isabel Martinez](https://github.com/SoyIsabelMM)| Chile|
