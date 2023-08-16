@@ -8,7 +8,7 @@ import Chart from "./Chart/Chart";
 import "./Chart/Chart.css";
 import Info from "./Info";
 import Hackathon from "./Hackathon";
-import Arqueros from "./Arqueros/Arqueros";
+import Archers from "./Archers";
 import Calificacion from "./Calificacion/Calificacion";
 
 function Main() {
@@ -16,13 +16,13 @@ function Main() {
     <main className="main">
       <FrontPage />
       <Info />
-      <RankingFifa />
-      <Arqueros />
-      <Calificacion />
-      <Chart descripcion={0} imagen={Image} />
+      {/* <RankingFifa /> */}
+      <Archers />
+      {/* <Calificacion /> */}
+      {/* <Chart descripcion={0} imagen={Image} />
       <Chart descripcion={1} imagen={Imagen2} className="reverse" />
       <Chart descripcion={2} imagen={Image} />
-      <Chart descripcion={3} imagen={Image} className="reverse" />
+      <Chart descripcion={3} imagen={Image} className="reverse" /> */}
       <Hackathon />
       <AboutUs />
     </main>

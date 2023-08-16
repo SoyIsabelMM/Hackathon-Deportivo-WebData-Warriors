@@ -59,7 +59,7 @@ export default class Example extends PureComponent {
           <CartesianGrid strokeDasharray="3 3" />
           <Bar
             dataKey="Resultados del equipo local"
-            fill="white"
+            fill="#9553fd"
             background={{ fill: "white" }}
           />
         </BarChart>
