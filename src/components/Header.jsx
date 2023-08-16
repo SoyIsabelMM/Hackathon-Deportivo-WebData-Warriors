@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="header">
       <i className="fa-regular fa-futbol fa-bounce logo"></i>
-      <h2 className="name-logo">DataWeb Warrios</h2>
+      <h2 className="name-logo">DataWeb Warriors</h2>
     </header>
   );
 }

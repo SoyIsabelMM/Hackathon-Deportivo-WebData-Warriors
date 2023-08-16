@@ -1,8 +1,6 @@
 import React from "react";
 
 function TeamImage(props) {
-  console.log(props);
-
   return (
     <>
       <div className="about-us__container">
