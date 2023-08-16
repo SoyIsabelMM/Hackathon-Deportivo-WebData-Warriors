@@ -18,8 +18,6 @@ function Main() {
       <Grafica descripcion={1} imagen={Imagen2} className="reverse" />
       <Arqueros />
       <Calificacion />
-      <Grafica descripcion={2} imagen={Imagen} />
-      <Grafica descripcion={3} imagen={Imagen} className="reverse" />
       <AboutUs />
     </main>
   );

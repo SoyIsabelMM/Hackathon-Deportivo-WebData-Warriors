@@ -4,17 +4,17 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 const data = [
     {
         name: 'Win',
-        value: 684,
+        'Clasificación para la Copa Africana de Naciones': 684,
         color: 'green',
     },
     {
         name: 'Lose',
-        value: 291,
+        'Clasificación para la Copa Africana de Naciones': 291,
         color: 'red'
     },
     {
         name: 'Draw',
-        value: 250,
+        'Clasificación para la Copa Africana de Naciones': 250,
         color: 'yellow'
     }
 ];
@@ -42,7 +42,7 @@ export default class Example extends PureComponent {
                     <Tooltip />
                     <Legend />
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Bar dataKey="value" fill="color" background={{ fill: '#eee' }} />
+                    <Bar dataKey="Clasificación para la Copa Africana de Naciones" fill="color" background={{ fill: '#eee' }} />
                 </BarChart>
             </ResponsiveContainer>
         );
