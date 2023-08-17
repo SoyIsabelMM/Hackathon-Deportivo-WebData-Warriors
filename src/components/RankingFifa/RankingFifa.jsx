@@ -59,6 +59,7 @@ const RankingFifa = () => {
             />
           ))}
         </div>
+        <div className="divider"></div>
       </section>
     </>
   );
