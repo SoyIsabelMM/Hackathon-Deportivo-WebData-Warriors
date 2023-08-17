@@ -31,16 +31,22 @@ const data = [
 
 const RankingFifa = () => {
     return (
-        <div className="ranking-fifa">
-            {data.map((item, index) => (
-                <RankingFifaItem
-                    key={index}
-                    flagImageUrl={item["flag Image"]}
-                    country={item.Country}
-                    timesInTop5={item["Number of times in Top 5"]}
-                />
-            ))}
-        </div>
+        <>
+            <p className="paragraph">Explora la élite del fútbol mundial a través de los datos. Descubre cuáles son los países que han
+                brillado consistentemente en el Top 5 del Ranking FIFA desde 1993 hasta 2022. España, Francia, Argentina, Alemania y Brasil han
+                dejado una marca indeleble, acumulando impresionantes números de veces en este selecto grupo. Sumérgete en esta visualización y
+                descubre quiénes son los verdaderos titanes del fútbol internacional.</p>
+            <div className="ranking-fifa">
+                {data.map((item, index) => (
+                    <RankingFifaItem
+                        key={index}
+                        flagImageUrl={item["flag Image"]}
+                        country={item.Country}
+                        timesInTop5={item["Number of times in Top 5"]}
+                    />
+                ))}
+            </div>
+        </>
     );
 };
 
