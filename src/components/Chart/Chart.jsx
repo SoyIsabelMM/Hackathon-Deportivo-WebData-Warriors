@@ -1,10 +1,8 @@
 import "./Chart.css";
 
 const descripciones = [
-  "Esta es una descripción larga para la gráfica 1...",
-  "Esta es una descripción larga para la gráfica 2...",
-  "Esta es una descripción larga para la gráfica 3...",
-  "Esta es una descripción larga para la gráfica 4...",
+  "A lo largo de los años, la cantidad de partidos por año ha ido creciendo sobre todo, a partir del año 2020 lo cual evidencia el crecimiento y la popularidad del fútbol. Cabe destacar que el 2021 presenta una tendencia a la baja en comparación con los años anteriores, posiblemente por a las restricciones y cancelaciones asociadas a la pandemia del COVID-19. Esta gráfica permite ver la evolución histórica y contextualizar los acontecimientos que han afectado la frecuencia de los partidos a lo largo de estos años.",
+  "La gráfica de puntos FIFA desde 2010 hasta 2022 muestra las puntuaciones más altas de algunas potencias futbolísticas entre las que se encuentran países como Brasil, Alemania, Argentina, Francia y España, que han destacado en el fútbol mundial durante estos años. Estos países han demostrado su dominio en el fútbol mundial, alcanzando puntuaciones altas de manera continua y destacando en competencias internacionales.",
 ];
 
 function Chart(props) {
@@ -12,7 +10,7 @@ function Chart(props) {
   const texto = descripciones[descripcionIndex];
   return (
     <section className={`Chart ${props.className}`}>
-      <h1 className="Chart__title">{texto}</h1>'
+      <h1 className="paragraph">{texto}</h1>'
       <div className="Chart__container-img1">{<props.imagen />}</div>
     </section>
   );
