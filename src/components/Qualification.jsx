@@ -2,7 +2,7 @@ import QualificationBarChart from "./QualificationBarChart";
 import QualificationBarChartOne from "./QualificationBarChartOne";
 import QualificationBarChartTwo from "./QualificationBarChartTwo";
 
-function Calificacion() {
+const Qualification = () => {
   return (
     <>
       <section className="qualification">
@@ -53,6 +53,6 @@ function Calificacion() {
       </section>
     </>
   );
-}
+};
 
-export default Calificacion;
+export default Qualification;
