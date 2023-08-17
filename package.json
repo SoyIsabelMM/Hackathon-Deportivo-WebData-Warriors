@@ -1,6 +1,6 @@
 {
   "name": "hackathon-deportivo",
-  "home": "https://soyisabelmm.github.io/Hackathon-Deportivo-WebData-Warrios",
+  "homepage": "https://soyisabelmm.github.io/Hackathon-Deportivo-WebData-Warrios",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
