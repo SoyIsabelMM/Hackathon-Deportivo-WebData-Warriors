@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Análisis Estadístico FIFA: Hackathon Deportivo TripleTen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introducción
 
-## Available Scripts
+Bienvenidos a nuestro proyecto para el Hackathon Deportivo de TripleTen. Aquí hemos construido una solución que combina la ciencia de datos y el desarrollo web para analizar y presentar estadísticas sobre la FIFA desde 1993 hasta la fecha. Nuestro enfoque principal es no solo presentar datos, sino hacerlo de manera interactiva y visualmente atractiva para todos los usuarios.
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+El Hackathon Deportivo es una competencia amistosa donde el desafío principal es analizar y presentar datos de forma accesible. Gracias al equipo multidisciplinario de Data Science y Desarrollo Web, logramos sumergirnos en el conjunto de datos, extraer hallazgos significativos y, finalmente, plasmarlos en un sitio web visualmente impactante.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Nuestro análisis principal se centra en la historia de la FIFA y los equipos que la componen. Además, desarrollamos un modelo predictivo que busca superar las predicciones basadas únicamente en el ranking FIFA.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías Utilizadas
 
-### `npm test`
+**Front-end**: 
+- JavaScript
+- CSS
+- HTML
+- React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Back-end**: 
+- Python (Google Colab con formato .ipynb para análisis de datos)
 
-### `npm run build`
+## Estructura del Proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Raíz**:
+- `package-lock.json`: Dependencias del proyecto.
+- `package.json`: Configuraciones y scripts del proyecto.
+- `index.html`: Punto de entrada al sitio.
+- `favicon.ico`, `logo192.png`, `logo512.png`: Íconos y logos del sitio.
+- `manifest.json`: Configuraciones del sitio web.
+- `robots.txt`: Directrices para robots de motores de búsqueda.
+- `App.js`: Componente principal de React.
+- `App.test.js`: Test para el componente principal.
+- `index.css`: Estilos globales.
+- `index.js`: Punto de entrada principal de JavaScript.
+- `reportWebVitals.js`, `setupTests.js`: Configuraciones y utilidades.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Directorios**:
+- `blocks`: Componentes y lógica relacionada.
+- `components`: Componentes de React reutilizables.
+- `fonts`: Fuentes utilizadas en el sitio.
+- `image`: Imágenes y activos gráficos.
+- `vendor`: Librerías y dependencias de terceros.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Expectativas
 
-### `npm run eject`
+Con este proyecto, esperamos brindar a los aficionados del fútbol y a los entusiastas de la ciencia de datos una herramienta que les permita entender mejor las tendencias y patrones en el mundo del fútbol. También aspiramos a que esta solución sea un punto de referencia para futuros análisis y desarrollos en el ámbito deportivo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Agradecimientos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Extendemos nuestro agradecimiento al equipo de TripleTen por organizar este Hackathon y desafiarnos a poner en práctica nuestras habilidades. Esta experiencia nos ha permitido crecer y aplicar lo aprendido durante nuestro bootcamp.
