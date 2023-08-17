@@ -5,27 +5,32 @@ const data = [
     {
         "flag Image": "https://www.banderas-mundo.es/data/flags/w580/es.webp",
         "Country": "Spain",
-        "Number of times in Top 5": 174
+        "Number of times in Top 5": 174,
+        "Opcion2": 87
     },
     {
         "flag Image": "https://www.banderas-mundo.es/data/flags/w580/fr.webp",
         "Country": "France",
-        "Number of times in Top 5": 175
+        "Number of times in Top 5": 175,
+        "Opcion2": 88
     },
     {
         "flag Image": "https://www.banderas-mundo.es/data/flags/w580/ar.webp",
         "Country": "Argentina",
-        "Number of times in Top 5": 181
+        "Number of times in Top 5": 181,
+        "Opcion2": 90.5
     },
     {
         "flag Image": "https://www.banderas-mundo.es/data/flags/w580/de.webp",
         "Country": "Germany",
-        "Number of times in Top 5": 249
+        "Number of times in Top 5": 249,
+        "Opcion2": 124.5
     },
     {
         "flag Image": "https://www.banderas-mundo.es/data/flags/w580/br.webp",
         "Country": "Brazil",
-        "Number of times in Top 5": 371
+        "Number of times in Top 5": 371,
+        "Opcion2": 185,
     }
 ]
 
@@ -43,6 +48,7 @@ const RankingFifa = () => {
                         flagImageUrl={item["flag Image"]}
                         country={item.Country}
                         timesInTop5={item["Number of times in Top 5"]}
+                        opcion2={item["Opcion2"]}
                     />
                 ))}
             </div>
