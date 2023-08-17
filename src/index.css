@@ -63,3 +63,24 @@
 
 @import url(./blocks/icon/icon.css);
 @import url(./blocks/link/link.css);
+
+
+.ranking-fifa__bar {
+    /* Estilo predeterminado */
+    background-color: #3498db;
+    height: 10px;
+    /* Altura de la barra */
+    transition: width 0.3s;
+    /* Transición suave del ancho */
+
+    /* Ancho predeterminado */
+    width: 100px;
+}
+
+/* Media query para pantallas móviles */
+@media (max-width: 468px) {
+    .ranking-fifa__bar {
+        /* Ancho ajustado para dispositivos móviles */
+        width: 30px;
+    }
+}
