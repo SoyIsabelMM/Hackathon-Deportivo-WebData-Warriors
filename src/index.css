@@ -24,6 +24,12 @@
 @import url(./blocks/archers/archers.css);
 @import url(./blocks/archers/__chart-container/archers__chart-container.css);
 
+@import url(./blocks/qualification/qualification.css);
+@import url(./blocks/qualification/__charts-container/qualification__charts-container.css);
+@import url(./blocks/qualification/__subtitle/qualification__subtitle.css);
+@import url(./blocks/qualification/__list/qualification__list.css);
+@import url(./blocks/qualification/__item/qualification__item.css);
+
 @import url(./blocks/about-us/about-us.css);
 @import url(./blocks/about-us/__team/about-us__team.css);
 @import url(./blocks/about-us/__image/about-us__image.css);
@@ -46,7 +52,6 @@
 @import url(./blocks/ranking-fifa/__item/-img/ranking-fifa__item-img.css);
 @import url(./blocks/ranking-fifa/__country/ranking-fifa__country.css);
 @import url(./blocks/ranking-fifa/__bar/ranking-fifa__bar.css);
-@import url(./blocks/Classification/Classification.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__container-logo/footer__container-logo.css);
