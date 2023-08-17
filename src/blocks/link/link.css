@@ -10,3 +10,9 @@
 .link:hover {
   color: #9553fd;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .link {
+    font-size: 15px;
+  }
+}

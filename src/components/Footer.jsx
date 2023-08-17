@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <footer className="footer">
-        <div className="footer__container-logo">
+        <div className="logo__container">
           <i className="fa-regular fa-futbol fa-bounce logo"></i>
           <h2 className="name-logo">DataWeb Warriors</h2>
         </div>

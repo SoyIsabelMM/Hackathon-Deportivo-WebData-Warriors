@@ -2,3 +2,9 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-us__team {
+    flex-direction: column;
+  }
+}

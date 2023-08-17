@@ -5,6 +5,7 @@
 
 @import url(./blocks/header/header.css);
 
+@import url(./blocks/logo/__container/logo__container.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/name-logo/name-logo.css);
 
@@ -54,7 +55,6 @@
 @import url(./blocks/ranking-fifa/__bar/ranking-fifa__bar.css);
 
 @import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/__container-logo/footer__container-logo.css);
 @import url(./blocks/footer/__content-list/footer__content-list.css);
 @import url(./blocks/footer/__subtitle/footer__subtitle.css);
 @import url(./blocks/footer/__list/footer__list.css);
