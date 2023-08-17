@@ -17,10 +17,10 @@ function Chart(props) {
   const titleIndex = props.title;
   const titleChart = title[titleIndex];
   return (
-    <section className={`Chart ${props.className}`}>
+    <section className="Chart">
       <div className="divider"></div>
       <h2 className="title"> {titleChart} </h2>
-      <h1 className="paragraph">{texto}</h1>'
+      <h1 className="paragraph">{texto}</h1>
       <div className="Chart__container-img1">{<props.image />}</div>
     </section>
   );

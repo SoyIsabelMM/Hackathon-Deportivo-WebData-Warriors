@@ -61,8 +61,12 @@ export default class Chart extends PureComponent {
           }}
         >
           <CartesianGrid strokeDasharray="5 5" />
-          <XAxis dataKey="year" />
-          <YAxis />
+          <XAxis
+            dataKey="year"
+            tick={{ fill: "white" }}
+            axisLine={{ stroke: "white" }}
+          />
+          <YAxis tick={{ fill: "white" }} axisLine={{ stroke: "white" }} />
           <Tooltip />
           <Legend />
           <Line

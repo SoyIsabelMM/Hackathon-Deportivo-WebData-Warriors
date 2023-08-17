@@ -20,7 +20,7 @@ function Main() {
       <Archers />
       <Qualification />
       <Chart descripcion={0} title={0} image={Image} />
-      <Chart descripcion={1} title={1} image={Imagen2} className="reverse" />
+      <Chart descripcion={1} title={1} image={Imagen2} />
       <Hackathon />
       <AboutUs />
     </main>
