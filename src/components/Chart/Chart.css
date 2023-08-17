@@ -1,0 +1,21 @@
+.Chart {
+  padding-top: 60px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.Chart__container-img1 {
+  height: 350px;
+  width: 650px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .Chart__container-img1 {
+    width: 300px;
+    height: 300px;
+  }
+}

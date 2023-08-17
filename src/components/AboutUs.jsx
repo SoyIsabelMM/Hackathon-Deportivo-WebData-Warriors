@@ -9,8 +9,9 @@ function AboutUs() {
   return (
     <>
       <section className="about-us">
-        <h2 className="about-us__title">Nosotros</h2>
         <div className="divider"></div>
+        <h2 className="title">Nosotros</h2>
+
         <div className="about-us__team">
           <TeamImage
             src={ireneReynoso}

@@ -1,20 +1,59 @@
 @import url(./vendor/normalize.css);
 @import url(./fonts/fonts.css);
+
 @import url(./blocks/page/page.css);
+
 @import url(./blocks/header/header.css);
+
+@import url(./blocks/logo/__container/logo__container.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/name-logo/name-logo.css);
+
 @import url(./blocks/main/main.css);
+
 @import url(./blocks/front-page/front-page.css);
 @import url(./blocks/front-page/__content/front-page__content.css);
 @import url(./blocks/front-page/__title/front-page__title.css);
 @import url(./blocks/front-page/__image/front-page__image.css);
 @import url(./blocks/btn/btn.css);
-@import url(./blocks/name-logo/name-logo.css);
+
+@import url(./blocks/info/info.css);
+@import url(./blocks/info/__color/info__color.css);
+
+@import url(./blocks/archers/archers.css);
+@import url(./blocks/archers/__chart-container/archers__chart-container.css);
+
+@import url(./blocks/qualification/qualification.css);
+@import url(./blocks/qualification/__charts-container/qualification__charts-container.css);
+@import url(./blocks/qualification/__subtitle/qualification__subtitle.css);
+@import url(./blocks/qualification/__list/qualification__list.css);
+@import url(./blocks/qualification/__item/qualification__item.css);
+
 @import url(./blocks/about-us/about-us.css);
-@import url(./blocks/divider/divider.css);
-@import url(./blocks/about-us/__title/about-us__title.css);
 @import url(./blocks/about-us/__team/about-us__team.css);
 @import url(./blocks/about-us/__image/about-us__image.css);
 @import url(./blocks/about-us/__container/about-us__container.css);
 @import url(./blocks/about-us/__text/about-us__text.css);
+
+@import url(./blocks/divider/divider.css);
+@import url(./blocks/title/title.css);
+
+@import url(./blocks/hackathon/hackathon.css);
+
+@import url(./blocks/paragraph/paragraph.css);
+
+@import url(./blocks/ranking-fifa/ranking-fifa.css);
+@import url(./blocks/ranking-fifa/__item/ranking-fifa__item.css);
+@import url(./blocks/ranking-fifa/__item/-img/ranking-fifa__item-img.css);
+@import url(./blocks/ranking-fifa/__country/ranking-fifa__country.css);
+@import url(./blocks/ranking-fifa/__bar/ranking-fifa__bar.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__content-list/footer__content-list.css);
+@import url(./blocks/footer/__subtitle/footer__subtitle.css);
+@import url(./blocks/footer/__list/footer__list.css);
+@import url(./blocks/footer/__list-name/footer__list-name.css);
+@import url(./blocks/footer/__content-icon/footer__content-icon.css);
+
+@import url(./blocks/icon/icon.css);
+@import url(./blocks/link/link.css);

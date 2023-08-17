@@ -1,0 +1,13 @@
+.archers {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .archers {
+    padding-top: 30px;
+  }
+}

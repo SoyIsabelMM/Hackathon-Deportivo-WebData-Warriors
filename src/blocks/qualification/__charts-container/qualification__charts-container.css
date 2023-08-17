@@ -1,0 +1,16 @@
+.qualification__charts-container {
+  padding-top: 50px;
+  display: flex;
+  height: 300px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .qualification__charts-container {
+    padding-top: 20px;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    height: auto;
+  }
+}

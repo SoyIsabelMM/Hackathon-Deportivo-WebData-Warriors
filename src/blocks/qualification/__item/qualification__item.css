@@ -1,0 +1,11 @@
+.qualification__item {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .qualification__item {
+    font-size: 12px;
+  }
+}
