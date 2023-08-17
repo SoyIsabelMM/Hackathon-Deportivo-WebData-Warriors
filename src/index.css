@@ -18,9 +18,7 @@
 @import url(./blocks/btn/btn.css);
 
 @import url(./blocks/info/info.css);
-@import url(./blocks/info/__title/info__title.css);
-@import url(./blocks/info/__title/_color/info__title_color.css);
-@import url(./blocks/info/__paragraph/info__paragraph.css);
+@import url(./blocks/info/__color/info__color.css);
 
 @import url(./blocks/archers/archers.css);
 @import url(./blocks/archers/__chart-container/archers__chart-container.css);
@@ -44,10 +42,6 @@
 
 @import url(./blocks/paragraph/paragraph.css);
 
-@import url(./blocks/info/info.css);
-@import url(./blocks/info/__title/info__title.css);
-@import url(./blocks/info/__title/_color/info__title_color.css);
-@import url(./blocks/info/__paragraph/info__paragraph.css);
 @import url(./blocks/ranking-fifa/ranking-fifa.css);
 @import url(./blocks/ranking-fifa/__item/ranking-fifa__item.css);
 @import url(./blocks/ranking-fifa/__item/-img/ranking-fifa__item-img.css);

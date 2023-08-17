@@ -4,13 +4,13 @@ function Info() {
   return (
     <section className="info">
       <div className="divider"></div>
-      <h2 className="info__title">
-        <span className="info__title_color">En WebData Warriors,</span>
+      <h2 className="title">
+        <span className="info__color">En WebData Warriors, </span>
         analizamos los datos históricos de partidos proporcionados por la FIFA.
         <br />
         ¡Descubre el poder de los datos en el deporte ⚽️!
       </h2>
-      <p className="info__paragraph">
+      <p className="paragraph">
         En la actualidad, el fútbol es más que un deporte; refleja cultura,
         pasión y es clave para análisis detallado.
         <br />
