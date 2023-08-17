@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hackathon-Deportivo-WebData-Warrios/static/css/main.17ce745b.css",
-    "main.js": "/Hackathon-Deportivo-WebData-Warrios/static/js/main.c5a10b83.js",
+    "main.css": "/Hackathon-Deportivo-WebData-Warrios/static/css/main.6300feb4.css",
+    "main.js": "/Hackathon-Deportivo-WebData-Warrios/static/js/main.a14b123b.js",
     "static/js/787.9f02919c.chunk.js": "/Hackathon-Deportivo-WebData-Warrios/static/js/787.9f02919c.chunk.js",
     "static/media/isabel-martinez.jpeg": "/Hackathon-Deportivo-WebData-Warrios/static/media/isabel-martinez.896c9daf42f7d8839e15.jpeg",
     "static/media/juan-najera.png": "/Hackathon-Deportivo-WebData-Warrios/static/media/juan-najera.39edcafda4dc4f95bc39.png",
@@ -9,12 +9,12 @@
     "static/media/front-image.jpeg": "/Hackathon-Deportivo-WebData-Warrios/static/media/front-image.1fc5d4533515f62185f4.jpeg",
     "static/media/Matias-agustin.png": "/Hackathon-Deportivo-WebData-Warrios/static/media/Matias-agustin.dce22ca8fede6b7c6fb1.png",
     "index.html": "/Hackathon-Deportivo-WebData-Warrios/index.html",
-    "main.17ce745b.css.map": "/Hackathon-Deportivo-WebData-Warrios/static/css/main.17ce745b.css.map",
-    "main.c5a10b83.js.map": "/Hackathon-Deportivo-WebData-Warrios/static/js/main.c5a10b83.js.map",
+    "main.6300feb4.css.map": "/Hackathon-Deportivo-WebData-Warrios/static/css/main.6300feb4.css.map",
+    "main.a14b123b.js.map": "/Hackathon-Deportivo-WebData-Warrios/static/js/main.a14b123b.js.map",
     "787.9f02919c.chunk.js.map": "/Hackathon-Deportivo-WebData-Warrios/static/js/787.9f02919c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17ce745b.css",
-    "static/js/main.c5a10b83.js"
+    "static/css/main.6300feb4.css",
+    "static/js/main.a14b123b.js"
   ]
 }
