@@ -12,18 +12,21 @@ Nuestro análisis principal se centra en la historia de la FIFA y los equipos qu
 
 ## Tecnologías Utilizadas
 
-**Front-end**: 
+**Front-end**:
+
 - JavaScript
 - CSS
 - HTML
 - React
 
-**Back-end**: 
+**Back-end**:
+
 - Python (Google Colab con formato .ipynb para análisis de datos)
 
 ## Estructura del Proyecto
 
 **Raíz**:
+
 - `package-lock.json`: Dependencias del proyecto.
 - `package.json`: Configuraciones y scripts del proyecto.
 - `index.html`: Punto de entrada al sitio.
@@ -37,6 +40,7 @@ Nuestro análisis principal se centra en la historia de la FIFA y los equipos qu
 - `reportWebVitals.js`, `setupTests.js`: Configuraciones y utilidades.
 
 **Directorios**:
+
 - `blocks`: Componentes y lógica relacionada.
 - `components`: Componentes de React reutilizables.
 - `fonts`: Fuentes utilizadas en el sitio.
@@ -52,18 +56,34 @@ Con este proyecto, esperamos brindar a los aficionados del fútbol y a los entus
 Extendemos nuestro agradecimiento al equipo de TripleTen por organizar este Hackathon y desafiarnos a poner en práctica nuestras habilidades. Esta experiencia nos ha permitido crecer y aplicar lo aprendido durante nuestro bootcamp.
 
 ## Equipo: WebData Warriors
-| Diciplina               | Nombre                                                                                 |País |
-|:------------------------ |:------------------------------------------------------------------------------------------- |:---|
-|Web Developer| [Isabel Martinez](https://github.com/SoyIsabelMM)| Chile|
-|Web Developer| [Matias Campos](https://github.com/2022matias)| Argentina|
-|Data Scientist| [Irene Reynoso](https://github.com/IreneRA)| México|
-|Data Scientist| [Juan Felipe Nájera]()| Ecuador|
+
+| Diciplina      | Nombre                                            | País      |
+| :------------- | :------------------------------------------------ | :-------- |
+| Web Developer  | [Isabel Martinez](https://github.com/SoyIsabelMM) | Chile     |
+| Web Developer  | [Matias Campos](https://github.com/2022matias)    | Argentina |
+| Data Scientist | [Irene Reynoso](https://github.com/IreneRA)       | México    |
+| Data Scientist | [Juan Felipe Nájera]()                            | Ecuador   |
 
 ## Sección de análisis de datos
-| Elemento               | Descripción                                                                                 |
-|:------------------------ |:------------------------------------------------------------------------------------------- |
-|[Datos crudos](https://github.com/IreneRA/Hackaton-Tripleten/tree/Raw-data)| Datos obtenidos directamente de las fuentes de datos, sin haber sido procesados, limpiados o transformados.|
-|[Ventaja del equipo local](https://github.com/IreneRA/Hackaton-Tripleten/blob/team-advantage/Ventaja_del_equipo_local.ipynb)| Investigar la existencia y magnitud de la ventaja que puede tener un equipo al jugar en su propio país o continente y cómo esta ventaja se manifiesta en diferentes torneos.|
-|[Influencia del portero en rondas de penaltis](https://github.com/IreneRA/Hackaton-Tripleten/blob/goalkeeper-impact/Influencia_portero.ipynb)| Estudiar la contribución y efectividad de los porteros durante las rondas de penaltis y determinar cuánto impactan en el resultado final de dichas rondas.|
-|[Modelo predictivo](https://github.com/IreneRA/Hackaton-Tripleten/blob/predictive-model/Modelo_predictivo.ipynb)| Creación de un modelo que predice el resultado de un partido y comparación con las predicciones basadas en el ranking FIFA.|
 
+| Elemento                                                                                                                                      | Descripción                                                                                                                                                                  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Datos crudos](https://github.com/IreneRA/Hackaton-Tripleten/tree/Raw-data)                                                                   | Datos obtenidos directamente de las fuentes de datos, sin haber sido procesados, limpiados o transformados.                                                                  |
+| [Ventaja del equipo local](https://github.com/IreneRA/Hackaton-Tripleten/blob/team-advantage/Ventaja_del_equipo_local.ipynb)                  | Investigar la existencia y magnitud de la ventaja que puede tener un equipo al jugar en su propio país o continente y cómo esta ventaja se manifiesta en diferentes torneos. |
+| [Influencia del portero en rondas de penaltis](https://github.com/IreneRA/Hackaton-Tripleten/blob/goalkeeper-impact/Influencia_portero.ipynb) | Estudiar la contribución y efectividad de los porteros durante las rondas de penaltis y determinar cuánto impactan en el resultado final de dichas rondas.                   |
+| [Modelo predictivo](https://github.com/IreneRA/Hackaton-Tripleten/blob/predictive-model/Modelo_predictivo.ipynb)                              | Creación de un modelo que predice el resultado de un partido y comparación con las predicciones basadas en el ranking FIFA.                                                  |
+
+## BADGES de la Hackathon
+
+**Insignia por participación**
+![Insignia participación en la hackathon](./src/image/BadgesParticipante.jpeg)
+
+**Insignia como proyecto ganador de la Hackaton**
+
+![Insignia Ganadores Hackathon](./src/image/BadgesGanador1.jpeg)
+
+Nuestro equipo **WebData Warriors** salio como ganador del Hackathon Deportivo 🤖
+
+La competencia fue intensa y todos hemos demostrado nuestro compromiso, creatividad y habilidades. Es inspirador ver cómo la pasión por el desarrollo y la innovación nos impulsa a alcanzar resultados sobresalientes.
+
+Aquí te dejo el enlace a nuestra página web para que le des un vistazo --> [Enlace a la página web](https://soyisabelmm.github.io/Hackathon-Deportivo-WebData-Warriors/)
